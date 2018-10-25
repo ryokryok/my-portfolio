@@ -13,6 +13,11 @@ module.exports = {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
+  css: [
+    {
+      src: 'bulma/bulma.sass',lang: 'sass'
+    }
+  ],
   /*
   ** Customize the progress bar color
   */
@@ -21,10 +26,8 @@ module.exports = {
   ** Build configuration
   */
   build: {
-    /*
-    ** Run ESLint on save
-    */
     extend (config, { isDev, isClient }) {
+      // Run ESLint on save
       if (isDev && isClient) {
         config.module.rules.push({
           enforce: 'pre',

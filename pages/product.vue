@@ -1,20 +1,13 @@
 <template>
-  <section class="hero is-primary is-bold">
+  <section class="hero is-success is-bold">
     <div class="hero-body">
       <div class="container">
         <h1 class="title is-size-2">
-          Mr_ozin
+          Product
         </h1>
         <h2 class="subtitle is-size-5">
-          Web Engineer
+          
         </h2>
-      </div>
-    </div>
-    <div class="tile is-ancestor">
-      <div class="tile is-child-box">
-        <p class="title">
-          Mr_ozin
-        </p>
       </div>
     </div>
   </section>

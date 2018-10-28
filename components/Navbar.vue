@@ -1,11 +1,11 @@
 <template>
-  <nav class="navbar is-dark">
+  <header class="navbar">
     <div class="navbar-brand">
       <nuxt-link class="navbar-item" to="/">
-        <p class="title is-3 has-text-white">Ryo Kato</p>
+        <p class="title is-3">Ryo Kato</p>
       </nuxt-link>
   
-      <div class="navbar-burger" data-target="navMenu"
+      <div class="navbar-burger has-text-white has-background-grey-darker" data-target="navMenu"
         @click="toggleMenu"  :class="{'is-active':isMenuActive}">
         <span></span>
         <span></span>
@@ -19,11 +19,10 @@
         <div class="navbar-item">
         </div>
           <nuxt-link class="navbar-item" to="/">Home</nuxt-link>
-          <nuxt-link class="navbar-item" to="/profile">Profile</nuxt-link>
           <nuxt-link class="navbar-item" to="/product">Product</nuxt-link>
         </div>
     </div>
-  </nav>
+  </header>
 </template>
 <script>
 export default {

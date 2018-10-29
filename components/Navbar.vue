@@ -2,7 +2,7 @@
   <header class="navbar">
     <div class="navbar-brand">
       <nuxt-link class="navbar-item" to="/">
-        <p class="title is-3">Ryo Kato</p>
+        <p class="title is-3">mrozin.ga</p>
       </nuxt-link>
   
       <div class="navbar-burger has-text-white has-background-grey-darker" data-target="navMenu"
@@ -19,6 +19,7 @@
         <div class="navbar-item">
         </div>
           <nuxt-link class="navbar-item" to="/">Home</nuxt-link>
+          <nuxt-link class="navbar-item" to="/profile">Profile</nuxt-link>
           <nuxt-link class="navbar-item" to="/product">Product</nuxt-link>
         </div>
     </div>

@@ -1,4 +1,5 @@
 <template>
+<div id="product-content">
   <div class="columns is-centered">
     <div class="column is-half">
       <div class="card">
@@ -29,6 +30,8 @@
         </div>
       </div>
     </div>
+  </div>
+  <div class="columns is-centered">
     <div class="column is-half">
       <div class="card">
         <header class="card-header">
@@ -63,10 +66,40 @@
         </div>
       </div>
     </div>
-
-
-
   </div>
+
+  <div class="columns is-centered">
+    <div class="column is-half">
+      <div class="card">
+        <header class="card-header">
+          <p class="card-header-title">
+            <a href="https://mrozin.tk">
+              <i class="fas fa-external-link-alt"></i>
+              mrozin.tk [クリックでデプロイ先へ]
+            </a>
+          </p>
+        </header>
+        <div class="card-content">
+          <div class="content">
+            <p>
+              VPS上でWordpressの環境構築とデプロイの練習。
+            </p>
+            <p>
+              VPSって何ができるの?独自ドメインってどうやって取得するの?HTTPS化ってどうやるの?
+              という疑問を解消するためにさくらVPSをレンタルしてLAMP環境を構築。
+            </p>
+            <p>
+              独自ドメインの取得やDNSの設定、HTTPS化の永続、レポジトリの概念を学べた。
+            </p>
+          </div>
+          <div class="content">
+            <p>使用したもの: Sakura VPS,Wordpress,Let’s Encrypt</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 </template>
 
 <script>

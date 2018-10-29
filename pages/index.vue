@@ -13,7 +13,7 @@
         <div class="card-content">
           <div class="content">
             <p>
-              WebエンジニアのRyo Katoです。<br>
+              筋肉WebエンジニアのMr_ozinです。<br>
               主に個人の趣味でRuby On Railsによるバックエンドをはじめとして、<br>
               最近ではVue.jsやNuxt.jsによるフロントエンドで開発をしています。<br>
             </p>
